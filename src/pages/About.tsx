@@ -5,7 +5,7 @@ import {Box, StyledA} from "@/pages/Home";
 export const About = () => {
     return (
         <Wrapper id={'about'}>
-<StyledH2>About <span>Me</span></StyledH2>
+<StyledH2>About <TextWrapper>Me</TextWrapper></StyledH2>
             <AboutBox>
                <StyledImg src={IMG} alt={''}/>
                 <StyledSpan></StyledSpan>
@@ -48,13 +48,28 @@ const AboutBox = styled.div`
   
 `
 const StyledImg = styled.img`
+  height: 90%;
     width: 90%;
   border-radius: 50%;
   border: .2rem solid var(--main-color);
-  
+`
+const TextWrapper =  styled.span`
+color: var(--main-color)
 `
 
 const StyledSpan = styled.span`
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%) rotate(0);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border-top: .2rem solid var(--second-bg-color);
+  border-bottom: .2rem solid var(--second-bg-color);
+  border-left: .2rem solid var(--main-color);
+  border-right: .2rem solid var(--main-color);
+    
 `
 
 const Content = styled.div`
