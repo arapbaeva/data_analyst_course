@@ -16,7 +16,7 @@ export const Menu = () => {
 };
 
 const StyledMenu = styled.nav`
-
+ 
 `
 
 const StyledNav = styled.a`
@@ -24,5 +24,15 @@ const StyledNav = styled.a`
   color: var(--text-color);
   font-weight: 500;
   margin-left: 3.5rem;
-
+  transition: .3s;
+   
+  &:hover{
+    color: var(--main-color);
+  }
+  //TO CODE
+  &:active{
+    color: var(--main-color);
+  }
+  
 `
+
