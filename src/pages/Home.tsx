@@ -96,7 +96,7 @@ const StyledP = styled.p`
   margin: 2rem 0 4rem;
 `
 
-const Box = styled.div`
+export const Box = styled.div`
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -104,7 +104,7 @@ const Box = styled.div`
   height: 5rem;
 
 `
-const StyledA = styled.a`
+export const StyledA = styled.a`
   position: relative;
   display: inline-flex;
   justify-content: center;
