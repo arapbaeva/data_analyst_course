@@ -121,6 +121,7 @@ export const StyledA = styled.a`
   z-index: 1;
   overflow: hidden;
   transition: .5s;
+  cursor: pointer;
 
   &:hover {
     color: var(--main-color);

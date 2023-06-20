@@ -13,11 +13,12 @@ export const About = () => {
 
             <Content>
 <StyledH3>Data Analyst!</StyledH3>
-                <StyledP>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus asperiores commodi cupiditate dolores, eius exercitationem fugiat hic itaque maiores odio officia omnis pariatur sequi sunt totam ut vel velit voluptate.</StyledP>
+                <StyledP>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus asperiores commodi cupiditate dolores, eius exercitationem fugiat hic itaque maiores odio officia omnis pariatur sequi sunt totam ut vel velit voluptate.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus asperiores commodi cupiditate dolores, eius exercitationem fugiat hic itaque maiores odio officia omnis pariatur sequi sunt totam ut vel velit voluptate.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus asperiores commodi cupiditate dolores, eius exercitationem fugiat hic itaque maiores odio officia omnis pariatur sequi sunt totam ut vel velit voluptate.</StyledP>
 
-                <Box>
+                <StyledBtn>
                     <StyledA>Read More</StyledA>
-                </Box>
+                </StyledBtn>
             </Content>
         </Wrapper>
     );
@@ -32,7 +33,7 @@ display: flex;
   background: var(--second-bg-color);
   padding-bottom: 6rem;
 `
-const StyledH2 = styled.h2`
+export const StyledH2 = styled.h2`
 font-size: 5rem;
   margin-bottom: 3rem;
   text-align: center;
@@ -53,7 +54,7 @@ const StyledImg = styled.img`
   border-radius: 50%;
   border: .2rem solid var(--main-color);
 `
-const TextWrapper =  styled.span`
+export const TextWrapper =  styled.span`
 color: var(--main-color)
 `
 
@@ -73,9 +74,19 @@ const StyledSpan = styled.span`
 `
 
 const Content = styled.div`
+    text-align: center;
+  
 `
 const StyledH3 = styled.h3`
+    font-size: 2.6rem;
 `
 
 const StyledP = styled.p`
+    font-size: 1.6rem;
+  margin: 2rem 0 3rem;
+`
+
+export const StyledBtn = styled(Box)`
+display: inline-block;
+  width: 15rem;
 `
