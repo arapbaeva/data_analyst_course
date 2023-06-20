@@ -45,9 +45,29 @@ const  StyledIcon = styled.a`
   background: var(--main-color);
   border: .2rem solid var(--main-color);
   border-radius: .6rem;
+  font-size: 2.4rem;
+  color: var(--bg-color);
+  transition: .5s;
+  z-index: 1;
+  overflow: hidden;
   
-  &(AiOutlineToTop){
+  &:hover{
+    color: var(--main-color);
+  }
   
-}
+  &::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--second-bg-color);
+    z-index: -1;
+  }
+  
+  &:hover::before{
+    width: 100%;
+  }
   
    `

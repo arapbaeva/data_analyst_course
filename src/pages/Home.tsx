@@ -78,7 +78,7 @@ const StyledH1 = styled.h1`
   line-height: 1.3;
 `
 const StyledSpan = styled.span`
-
+color: var(--text-color);
 `
 const TextAnimate = styled.div`
   position: relative;
