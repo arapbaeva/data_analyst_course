@@ -7,8 +7,8 @@ export const Menu = () => {
             <StyledNav href={'#'}>Home</StyledNav>
             <StyledNav href={'#about'}>About</StyledNav>
             <StyledNav href={'#education'}>Education</StyledNav>
-            <StyledNav href={'#skills'}>Skills</StyledNav>
-            <StyledNav href={'#course'}>Course</StyledNav>
+            {/*<StyledNav href={'#skills'}>Skills</StyledNav>*/}
+            {/*<StyledNav href={'#course'}>Course</StyledNav>*/}
             <StyledNav href={'#price'}>Price</StyledNav>
             <StyledNav href={'#contact'}>Contact</StyledNav>
         </StyledMenu>
