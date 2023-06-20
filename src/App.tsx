@@ -5,6 +5,7 @@ import {About} from "@/pages/About";
 import {Education} from "@/pages/Education";
 import {Pricing} from "@/pages/Pricing";
 import {Contact} from "@/pages/Contact";
+import {Footer} from "@/layout/footer/Footer";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Education/>
         <Pricing/>
         <Contact/>
+        <Footer/>
     </>
   )
 }

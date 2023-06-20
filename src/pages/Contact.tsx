@@ -74,14 +74,6 @@ const StyledInput = styled.input`
   background: transparent;
   border-radius: .6rem;
   border: .2rem solid var(--main-color);
-
-  &:focus~{
-    width: 100%;
-  }
-
-  &:valid~{
-    width: 100%;
-  }
   
   &::placeholder{
     color: var(--text-color);
@@ -97,9 +89,7 @@ const Focus = styled.span`
   background: transparent;
   border-radius: .6rem;
   z-index: -1;
-  transition: .5s;
   
- 
 `
 
 const TextAreaField = styled.div`
